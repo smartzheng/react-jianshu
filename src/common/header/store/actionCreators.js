@@ -1,13 +1,45 @@
-import {ACTION_BLUR, ACTION_FOCUSED} from './constants'
+import * as constants from './constants'
+import Axios from "axios";
+import {fromJS} from 'immutable'
 
-export const createFocusedAction = () => {
+export function mouseMoveAction(isMouseIn) {
     return {
-        type: ACTION_FOCUSED
+        type: constants.ACTION_MOUSE_MOVE,
+        isMouseIn
+    };
+}
+
+export const focusedAction = () => {
+    return {
+        type: constants.ACTION_FOCUSED
     };
 };
 
-export const createBlurAction = () => {
+export const blurAction = () => {
     return {
-        type: ACTION_BLUR
+        type: constants.ACTION_BLUR
+    };
+};
+
+export const searchChangeAction = (newPage) => {
+    return {
+        type: constants.ACTION_SEARCH_CHANGE,
+        newPage
+    };
+};
+const addSearchListAction = (list) => {
+    return {
+        type: constants.ACTION_ADD_SEARCH_LIST,
+        list: fromJS(list)
+    };
+};
+export const getSearchSuggestionAction = () => {
+    return (dispatch) => {
+        Axios.get('/api/headerList.json').then((res) => {
+            let list = res.data.data;
+            dispatch(addSearchListAction(list));
+        }, () => {
+            console.log('getHeaderList error!')
+        })
     };
 };

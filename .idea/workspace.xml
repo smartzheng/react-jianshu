@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eb407b2-5b5e-4207-8b81-17e16bbcac6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/nav_log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/smartzheng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/detail.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/headerList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/homeList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/login.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +53,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/statics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,12 +67,12 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/statics" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/store" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/statics" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,8 +164,17 @@
       <workItem from="1561692922383" duration="5842000" />
       <workItem from="1561950672516" duration="14000" />
       <workItem from="1562740237903" duration="6536000" />
-      <workItem from="1562749851101" duration="42807000" />
+      <workItem from="1562749851101" duration="46713000" />
+      <workItem from="1563155473522" duration="19309000" />
     </task>
+    <task id="LOCAL-00001" summary="完成Header结构">
+      <created>1562920528015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562920528015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +192,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成Header结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Header结构" />
   </component>
   <component name="masterDetails">
     <states>
