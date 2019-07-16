@@ -4,6 +4,7 @@ import {GlobalStyle} from "./style";
 import {IconfontStyle} from "./statics/iconfont/iconfont";
 import store from './store'
 import {Provider} from 'react-redux'
+import Home from "./pages/home";
 
 class App extends Component {
     render() {
@@ -12,6 +13,7 @@ class App extends Component {
                 <GlobalStyle/>
                 <IconfontStyle/>
                 <Header/>
+                <Home/>
             </Provider>
         );
     }

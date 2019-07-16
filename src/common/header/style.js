@@ -30,6 +30,7 @@ export const NavDiv = styled('header')`
 `;
 
 export const SearchSuggestion = styled('div')`
+  background-color: white;
   position: absolute;
   top: 50px;
   padding: 20px 20px 10px 20px;
@@ -138,22 +139,27 @@ export const NavItem = styled('div')`
     color: #ea6f5a;
     margin-left: 150px;
     font-size: 17px;
+    cursor: pointer;
   };
   &.nav-download{
     font-size: 17px;
     color: #333;
+    cursor: pointer;
     :hover{
       background-color: #eee;
     }
   };
   &.nav-font{
     color: #969696;
+    cursor: pointer;
   };
   &.nav-login{
     color: #969696;
+    cursor: pointer;
   };
   &.nav-reg{
     color: #ea6f5a;
+    cursor: pointer;
     margin:  0 12px;
     width: 80px;
     line-height: 24px;
@@ -163,6 +169,7 @@ export const NavItem = styled('div')`
   };
   &.nav-write{
     width: 100px;
+    cursor: pointer;
     color: white;
     background-color: #ea6f5a;
     margin: 0 12px;
