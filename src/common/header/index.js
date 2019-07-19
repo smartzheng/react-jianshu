@@ -51,7 +51,7 @@ class Header extends Component {
                     <NavDiv>
                         <NavItem className={'nav-font'}>Aa</NavItem>
                         {this.getLoginView(loginStatus, handleLogin)}
-                        <NavItem className={'nav-reg'}>注册</NavItem>
+                        <NavItem className={'nav-reg'} hidden={loginStatus}>注册</NavItem>
                         <NavItem className={'nav-write'}>写文章</NavItem>
                     </NavDiv>
                 </HeaderWrapper>

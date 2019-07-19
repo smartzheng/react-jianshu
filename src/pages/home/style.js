@@ -35,6 +35,7 @@ export const ListItem = styled('div')`
   border-bottom: 1px solid #f0f0f0;
   .img{
     width: 150px;
+    background-color: #eee;
     cursor: pointer;
     margin-left: 20px;
     height: 100px;
