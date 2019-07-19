@@ -6,7 +6,7 @@ function addHomeList(list, nextPage) {
     return {
         type: constants.ADD_HOME_LIST,
         list: fromJS(list),
-        nextPage:fromJS(nextPage)
+        nextPage: nextPage
     };
 }
 
@@ -19,7 +19,7 @@ function setHomeData(data) {
 
 export function getMoreList(page) {
     return (dispatch) => {
-        Axios.get('/api/homeMore.json?page=' + page).then(
+        Axios.get('/api/homemore.json?page=' + page).then(
             (res) => {
                 dispatch(addHomeList(res.data.data, page + 1))
             }

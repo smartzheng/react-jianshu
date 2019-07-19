@@ -3,17 +3,22 @@ import logoPic from '../../statics/nav_log.png'
 
 export const HeaderWrapper = styled('div')`
   height: 56px;
+  z-index: 1;
+  margin-left: calc(100vw - 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: 980px;
   width: 100%;
+  position:fixed;
   border-bottom: 0.5px solid #eee;
-  align-items: center;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  background-color: white;
 `;
 
-export const Logo = styled('a').attrs({
-    href: '/'
-})`
+export const Logo = styled('div')`
   background: url(${logoPic});
   font-size: 0;
   width: 100px;
@@ -24,12 +29,12 @@ export const Logo = styled('a').attrs({
   vertical-align: middle;
 `;
 
-export const NavDiv = styled('header')`
-  display: inline-block;
+export const NavDiv = styled('div')`
   vertical-align: middle;
 `;
 
 export const SearchSuggestion = styled('div')`
+  z-index: 1;
   background-color: white;
   position: absolute;
   top: 50px;
@@ -37,17 +42,19 @@ export const SearchSuggestion = styled('div')`
   box-sizing: border-box;
   font-size: 14px;
   width: 250px;
+  overflow: hidden;
   border-radius: 3px;
   border: 1px solid #eee;
   box-shadow: 0 0 8px rgba(0,0,0,.2);
 `;
-export const SearchSuggestionTitle = styled('span')`
+export const SearchSuggestionTitle = styled('div')`
   font-size: 14px;
   color: #969696;
+  display: block;
   line-height: 17px;
 `;
 
-export const SearchSuggestionChange = styled('span')`
+export const SearchSuggestionChange = styled('div')`
   float: right;
   color: #969696;
   display: inline-block;
@@ -65,9 +72,12 @@ export const SearchSuggestionChange = styled('span')`
 `;
 export const SearchSuggestionItems = styled('div')`
   color: #777;
+  display: block;
   font-size: 13px;
 `;
 export const SearchSuggestionItem = styled('div')`
+  height: 20px;
+  line-height: 20px;
   border: 1px solid #eee;
   border-radius: 3px;
   padding: 2px 5px;
@@ -85,8 +95,8 @@ export const NavSearchWrapper = styled('div')`
     right: 5px;
     bottom: 5px;
     width: 30px;
-    text-align: center;
     border-radius: 15px;
+    text-align: center;
     line-height: 30px;
     box-sizing: border-box; 
     background-color: #eee;
@@ -172,7 +182,7 @@ export const NavItem = styled('div')`
     cursor: pointer;
     color: white;
     background-color: #ea6f5a;
-    margin: 0 12px;
+    margin: 0 30px 0 12px;
     padding: 6px 12px;
     line-height: 24px;
     border: 1px solid #ea6f5a;
@@ -182,7 +192,7 @@ export const NavItem = styled('div')`
   line-height: 56px;
   font-weight: 400;
   text-align: center;
+  box-sizing: border-box;
   font-size: 15px;
   display: inline-block;
 `;
-

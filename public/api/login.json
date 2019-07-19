@@ -1,4 +1,6 @@
 {
 	"success": true,
-	"data": true
+	"data": {
+		"login_status": true
+	}
 }

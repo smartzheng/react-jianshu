@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const HomeWrapper = styled('div')`
-  width: 960px;
-  overflow: hidden;
-  padding: 30px 0 50px 0;
-  margin: 0 auto;
+  z-index: 0;
+  display: flex;
+  box-sizing: border-box;
+  min-width: 980px;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+  margin-top: 56px;
 `;
 export const HomeLeft = styled('div')`
   width: 625px;
-  float: left;
   .no-more{
-    width: 625px;
+    width: 100%;
     text-align: center;
     font-size: 16px;
     color: #969696;
@@ -18,14 +20,15 @@ export const HomeLeft = styled('div')`
   }
 `;
 export const HomeRight = styled('div')`
+  margin-left: 50px;                
   width: 280px;
-  float: right;
 `;
 export const ListWrapper = styled('div')`
-  width: 625px;
+  width: 100%;
 `;
 export const ListItem = styled('div')`
   padding: 15px 0 20px 0;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   width: 625px;

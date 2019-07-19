@@ -5,6 +5,7 @@ import {
     ListItem,
     ListItemInfo,
 } from "../style";
+import {Link} from "react-router-dom";
 
 class List extends PureComponent {
     render() {
@@ -14,10 +15,15 @@ class List extends PureComponent {
                 articleList.map((item, index) => {
                     return <ListItem key={index}>
                         <ListItemInfo>
-                            <h3 className={'title'}>{item.get('title')}</h3>
-                            <p className={'desc'}>{item.get('desc')}</p>
+                            <Link to={'/detail/' + item.get('id')}>
+                                <h3 className={'title'}>{item.get('title')}</h3>
+                            </Link>
+                            <Link to={'/detail/' + item.get('id')}>
+                                <p className={'desc'}>{item.get('desc')}</p>
+                            </Link>
                         </ListItemInfo>
-                        <img hidden={!item.get('imgUrl')} className={'img'} src={item.get('imgUrl')} alt=''/>
+                        <img hidden={!item.get('imgUrl')} className={'img'} src={item.get('imgUrl')}
+                             alt=''/>
                     </ListItem>
                 })
             }

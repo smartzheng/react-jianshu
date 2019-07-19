@@ -10,7 +10,7 @@ class WriterList extends PureComponent {
     render() {
         const {writerList} = this.props;
         return (<Fragment>
-            <WriterListTitleWrapper>
+            <WriterListTitleWrapper hidden={writerList.size === 0}>
                 <span className={'title'}>热门搜索</span>
                 <span className={'change'}>
                 <i className="iconfont spin" ref={this.changeIcon}>&#xe851;</i>
