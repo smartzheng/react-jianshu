@@ -16,7 +16,7 @@ import {CSSTransition} from 'react-transition-group';
 import {connect} from 'react-redux'
 import {actionCreators} from "./store";
 import {actionCreators as loginActionCreators} from "../../pages/login/store";
-import {Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
     constructor(props) {
@@ -61,12 +61,11 @@ class Header extends Component {
     getLoginView(loginStatus, handleLogin) {
         return loginStatus ?
             <NavItem className={'nav-login'}
-                     onClick={() => handleLogin(loginStatus)}>退出
+                     onClick={() => handleLogin()}>退出
             </NavItem>
             :
             <Link to={'/login'}>
-                <NavItem className={'nav-login'}
-                         onClick={() => handleLogin(loginStatus)}>登录
+                <NavItem className={'nav-login'}>登录
                 </NavItem>
             </Link>;
     }
@@ -81,22 +80,25 @@ class Header extends Component {
                     key={jsList[i]}>{jsList[i]}</SearchSuggestionItem>)
             }
         }
-
-        return (
-            <SearchSuggestion hidden={!focused && !isMouseIn}
-                              onMouseEnter={() => handleOnMouseMove(true)}
-                              onMouseLeave={() => handleOnMouseMove(false)}>
-                <SearchSuggestionTitle>热门搜索
-                    <SearchSuggestionChange
-                        onClick={() => handleSearchListChange(currentPage, totalPage, this.changeIcon)}>
-                        <i className="iconfont spin" ref={this.changeIcon}>&#xe851;</i>
-                        换一换
-                    </SearchSuggestionChange>
-                </SearchSuggestionTitle>
-                <SearchSuggestionItems>
-                    {items}
-                </SearchSuggestionItems>
-            </SearchSuggestion>);
+        if (focused || isMouseIn) {
+            return (
+                <SearchSuggestion
+                    onMouseEnter={() => handleOnMouseMove(true)}
+                    onMouseLeave={() => handleOnMouseMove(false)}>
+                    <SearchSuggestionTitle>热门搜索
+                        <SearchSuggestionChange
+                            onClick={() => handleSearchListChange(currentPage, totalPage, this.changeIcon)}>
+                            <i className="iconfont spin" ref={this.changeIcon}>&#xe851;</i>
+                            换一换
+                        </SearchSuggestionChange>
+                    </SearchSuggestionTitle>
+                    <SearchSuggestionItems>
+                        {items}
+                    </SearchSuggestionItems>
+                </SearchSuggestion>);
+        } else {
+            return null;
+        }
 
     };
 }
@@ -138,12 +140,8 @@ const mapDispatchToProps = (dispatch) => {
         handleOnMouseMove(isMouseIn) {
             dispatch(actionCreators.mouseMoveAction(isMouseIn))
         },
-        handleLogin(loginStatus) {
-            if (loginStatus) {
-                dispatch(loginActionCreators.logout())
-            } else {
-                NavLink('/login')
-            }
+        handleLogin() {
+            dispatch(loginActionCreators.logout())
         }
     }
 };

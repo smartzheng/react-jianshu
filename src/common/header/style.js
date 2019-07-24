@@ -73,14 +73,14 @@ export const SearchSuggestionChange = styled('div')`
 export const SearchSuggestionItems = styled('div')`
   color: #777;
   display: block;
-  font-size: 13px;
 `;
 export const SearchSuggestionItem = styled('div')`
-  height: 20px;
-  line-height: 20px;
+  height: 22px;
   border: 1px solid #eee;
-  border-radius: 3px;
-  padding: 0 5px 3.5px 5px;
+  font-size: 13px;
+  padding: 3.5px 5px;
+  box-sizing: border-box;
+  line-height: 13px;
   cursor: pointer;
   display: inline-block;
   margin: 10px 10px 0 0;
@@ -139,7 +139,8 @@ export const NavSearch = styled.input.attrs({
   padding: 0 40px 0 20px;
   border: none;
   outline: none;
-  line-height: 38px;
+  line-height: 15px;
+  height: 38px;
   background-color: #eee;
   border-radius: 20px;
 `;

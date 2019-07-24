@@ -25,7 +25,7 @@ export default (state = defaultState, action) => {
         case Constants.ACTION_ADD_SEARCH_LIST: {
             return state.merge({
                 searchList: action.list,
-                totalPage: Math.ceil(action.list.size / 10),
+                totalPage: action.totalPage,
             })
         }
         default:

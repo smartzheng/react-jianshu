@@ -30,12 +30,13 @@ export const searchChangeAction = (newPage) => {
 const addSearchListAction = (list) => {
     return {
         type: constants.ACTION_ADD_SEARCH_LIST,
-        list: fromJS(list)
+        list: fromJS(list),
+        totalPage: Math.ceil(list.length / 10)
     };
 };
 export const getSearchSuggestionAction = () => {
     return (dispatch) => {
-        Axios.get('/api/headerList.json').then((res) => {
+        Axios.get('/api/headerlist.json').then((res) => {
             let list = res.data.data;
             dispatch(addSearchListAction(list));
         }, () => {
