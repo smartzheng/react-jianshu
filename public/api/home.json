@@ -1,25 +1,25 @@
 {
   "success": true,
   "data": {
-    "bannerUrl": "//upload.jianshu.io/admin_banners/web_images/4318/60781ff21df1d1b03f5f8459e4a1983c009175a5.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540",
+    "bannerUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_banner.png",
     "articleList": [
       {
         "id": 1,
         "title": "iOS工程师 VS Android工程师，谁的薪水更胜一筹",
         "desc": "如今软件工程师的职位是非常的多，从最开始的C，VB，VC++工程师到如今火爆的iOS和Android工程师，iOS和Android工程师在互联网...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/18569911-ad103c97fffbe66b.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list1.jpg"
       },
       {
         "id": 2,
         "title": "胡歌12年后首谈车祸：既然活下来了，就不能白白活着",
         "desc": "文/麦大人 01 胡歌又刷屏了。 近日他上了《朗读者》，而这一期的主题是“生命”，他用磁性的嗓音，朗读了一段《哈姆雷特》中的经典独白，相当震撼：...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/15233854-085a322e75ec4879?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list2.jpeg"
       },
       {
         "id": 3,
         "title": "亲身经历告诉你，没有含金量的工作做久了有多可怕！",
         "desc": "这是我的亲身经历，没有含金量的工作做久了都是在自杀式的毁灭。大学毕业后的头1年我选择留校考研，但还是没有获取很好的成绩，考研失败。于是我选择去了...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/18532199-b038b216087e6600.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list1.jpg"
       },
       {
         "id": 4,
@@ -30,31 +30,31 @@
         "id": 5,
         "title": "断供华为后的谷歌: 过河被拆桥，自身难保”",
         "desc": "导语:“Winter is coming！凛冬将至！”此刻谷歌在手机市场所处的情况正如《权力的游戏》剧中的经典台词所描述。 要知道，目前世界上的...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/8062407-6b9b2d5b0b69b7d5.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list2.jpeg"
       },
       {
         "id": 6,
         "title": "胡歌12年后首谈车祸：既然活下来了，就不能白白活着",
         "desc": "文/麦大人 01 胡歌又刷屏了。 近日他上了《朗读者》，而这一期的主题是“生命”，他用磁性的嗓音，朗读了一段《哈姆雷特》中的经典独白，相当震撼：...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/15233854-085a322e75ec4879?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list1.jpg"
       },
       {
         "id": 7,
         "title": "iOS工程师 VS Android工程师，谁的薪水更胜一筹",
         "desc": "如今软件工程师的职位是非常的多，从最开始的C，VB，VC++工程师到如今火爆的iOS和Android工程师，iOS和Android工程师在互联网...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/18569911-ad103c97fffbe66b.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list2.jpeg"
       },
       {
         "id": 8,
         "title": "断供华为后的谷歌: 过河被拆桥，自身难保”",
         "desc": "导语:“Winter is coming！凛冬将至！”此刻谷歌在手机市场所处的情况正如《权力的游戏》剧中的经典台词所描述。 要知道，目前世界上的...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/8062407-6b9b2d5b0b69b7d5.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list1.jpg"
       },
       {
         "id": 9,
         "title": "亲身经历告诉你，没有含金量的工作做久了有多可怕！",
         "desc": "这是我的亲身经历，没有含金量的工作做久了都是在自杀式的毁灭。大学毕业后的头1年我选择留校考研，但还是没有获取很好的成绩，考研失败。于是我选择去了...",
-        "imgUrl": "https://upload-images.jianshu.io/upload_images/18532199-b038b216087e6600.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_list2.jpeg"
       },
       {
         "id": 10,
@@ -65,19 +65,19 @@
     "recommendList": [
       {
         "id": 1,
-        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_recommend1.png"
       },
       {
         "id": 2,
-        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_recommend2.png"
       },
       {
         "id": 3,
-        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_recommend3.png"
       },
       {
         "id": 4,
-        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+        "imgUrl": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_recommend4.png"
       }
     ],
     "writerList": [
@@ -85,37 +85,37 @@
         "id": 1,
         "name": "smartzheng",
         "desc": "写了668.1k字 · 13.6k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/2983970/24cb68b4-78dc-4425-a9d9-4b96738eb050.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar2.jpg"
       },
       {
         "id": 2,
         "name": "吴小布",
         "desc": "写了55.4k字 · 31.6k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar1.webp"
       },
       {
         "id": 3,
         "name": "简书大学堂",
         "desc": "写了1508.6k字 · 34.1k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/3627484/eb973bb9-37ba-4d07-acec-850c0a66d1bb.png?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar2.jpg"
       },
       {
         "id": 4,
         "name": "徐林",
         "desc": "写了689.6k字 · 6.3k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/5545154/1a3d5ed6-9ad1-44b3-9457-3e6a29dd1b71.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar1.webp"
       },
       {
         "id": 5,
         "name": "smartzheng",
         "desc": "写了668.1k字 · 13.6k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/2983970/24cb68b4-78dc-4425-a9d9-4b96738eb050.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar2.jpg"
       },
       {
         "id": 6,
         "name": "吴小布",
         "desc": "写了55.4k字 · 31.6k喜欢",
-        "avatar": "//upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        "avatar": "https://raw.githubusercontent.com/smartzheng/images/master/jianshu_avatar1.webp"
       }
     ],
     "totalPage": 3

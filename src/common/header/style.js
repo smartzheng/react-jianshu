@@ -80,7 +80,7 @@ export const SearchSuggestionItem = styled('div')`
   line-height: 20px;
   border: 1px solid #eee;
   border-radius: 3px;
-  padding: 2px 5px;
+  padding: 0 5px 3.5px 5px;
   cursor: pointer;
   display: inline-block;
   margin: 10px 10px 0 0;
@@ -110,12 +110,12 @@ export const NavSearchWrapper = styled('div')`
 
 export const NavSearch = styled.input.attrs({
     placeholder: '搜索',
-    focused: false
+    focused: false              
 })`
   ::placeholder{
     color: #999;
   }
-  transition: width 500ms ease-out;
+  transform: translate3d(0,0,0);
   &.focused{
     width: 320px;
   }

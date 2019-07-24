@@ -79,6 +79,7 @@ export const RecommendItem = styled('div')`
   .img{
     width: 280px;
     height: 50px;
+    border-radius: 5px;
   }
 `;
 
